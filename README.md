@@ -18,12 +18,12 @@ Clone the repo: `git clone https://github.com/alexander-pastukhov/edfImport.git`
 Precompiled mex files (32- and 64-bit Windows Matlab only) are included but you can compile them yourself by running `edfCompile.m` script. You might need to setup the compiler for your system first: Run `mex -setup` and follow the instructions. Please check paths to include files (`*.h` files) and libraries (`*.dll` files for Windows, `*.lib` files for OS X) that are specified in the `edfCompile.m` file. Default locations are as follows:
 
 #### For Windows 32 bit (typical installation):
-* includes: C:\Program Files\SR Research\EyeLink\EDF_Access_API\Example
-* library: C:\Program Files\SR Research\EyeLink\EDF_Access_API\lib\win32
+* includes: c:\Program Files (x86)\SR Research\EyeLink\Includes\eyelink\ (formerly in C:\Program Files\SR Research\EyeLink\EDF_Access_API\Example)
+* library: c:\Program Files (x86)\SR Research\EyeLink\libs\ (formerly in C:\Program Files\SR Research\EyeLink\EDF_Access_API\lib\win32)
 
 #### For Windows 64 bit (typical installation):
-* includes: C:\Program Files (x86)\SR Research\EyeLink\EDF_Access_API\Example
-* library: C:\Program Files (x86)\SR Research\EyeLink\EDF_Access_API\lib\win32
+* includes: c:\Program Files (x86)\SR Research\EyeLink\Includes\eyelink\ (formerly in C:\Program Files (x86)\SR Research\EyeLink\EDF_Access_API\Example)
+* library: c:\Program Files (x86)\SR Research\EyeLink\libs\x64\ (formerly in C:\Program Files (x86)\SR Research\EyeLink\EDF_Access_API\lib\win32)
 
 #### For Mac OS X (typical installtion):
 * includes: /Library/Frameworks/edfapi.framework/Headers/
